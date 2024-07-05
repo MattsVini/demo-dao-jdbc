@@ -2,6 +2,8 @@ package model.entities;
 
 import java.io.Serializable;
 
+
+
 public class Department implements Serializable{
 
 	private static final long serialVersionUID = 1L;
@@ -11,7 +13,7 @@ public class Department implements Serializable{
 	
 	public Department() {
 	}
-
+    
 	public Department(Integer id, String name) {
 		this.id = id;
 		this.name = name;
